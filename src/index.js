@@ -10,8 +10,8 @@ import { GlobalStyle, theme } from './styles';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <ThemeProvider theme={theme} basename="/goit-react-hw-05-movies/">
+    <BrowserRouter basename="/goit-react-hw-05-movies/">
+      <ThemeProvider theme={theme}>
         <GlobalStyle />
         <App />
       </ThemeProvider>
