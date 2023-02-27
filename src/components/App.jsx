@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { routes } from 'services/routes';
 import { Layout } from 'layout/Layout/Layout';
@@ -32,7 +32,10 @@ export const App = () => {
           path="*"
           element={
             <p style={{ textAlign: 'center', fontSize: 36, marginTop: 90 }}>
-              Page Not Found <Link to={HOME}>Back to Home</Link>
+              Page Not Found 
+              <Navigate to="/" replace={true}>
+                Back to Home
+              </Navigate>
             </p>
           }
         />
