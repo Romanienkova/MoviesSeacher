@@ -41,25 +41,5 @@ export const App = () => {
         />
       </Routes>
     </Suspense>
-
-    //  *********** without Layout ********
-    // <>
-    //   <Header />
-    //   <main>
-    //     <Routes>
-    //       <Route path="/" element={<HomePage />} />
-    //       <Route path="/movies/:movieId/*" element={<MovieDetailsPage />} />
-    //       <Route path="/movies" element={<MoviesPage />} />
-    //       <Route
-    //         path="*"
-    //         element={
-    //               <p>
-    //                 Page Not Found <Link to="/">Go Home</Link>
-    //               </p>
-    //         }
-    //       />
-    //     </Routes>
-    //   </main>
-    // </>
   );
 };
