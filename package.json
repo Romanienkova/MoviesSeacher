@@ -1,8 +1,8 @@
 {
-  "name": "TrendingMovies",
+  "name": "goit-react-hw-05-movies",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Romanienkova.github.io/TrendingMovies/",
+  "homepage": "https://Romanienkova.github.io/goit-react-hw-05-movies/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
